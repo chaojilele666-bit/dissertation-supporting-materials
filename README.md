@@ -21,7 +21,8 @@ Submission date: August 2026
 - `supporting-materials/Appendix_E_Modelling_Analysis_Results.json`
 - `supporting-materials/Appendix_E_Modelling_Analysis_Tables.xlsx`
 - `supporting-materials/Appendix_F_Data_Collection_Summary.json`
-- `supporting-materials/Appendix_G_Participant_Information_and_Consent_Form.docx`
+- `supporting-materials/Appendix_G_MSc_Dissertation_Supervisor_Agreement_Form.pdf`
+- `supporting-materials/Appendix_H_Ethics_Application_Form.pdf`
 
 ## Notes
 
