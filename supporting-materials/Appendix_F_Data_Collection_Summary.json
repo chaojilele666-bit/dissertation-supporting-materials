@@ -1,0 +1,37 @@
+{
+  "raw_count": 3196,
+  "selected_count": 2000,
+  "by_region": {
+    "Europe": 800,
+    "Asia": 700,
+    "America": 500
+  },
+  "by_platform": {
+    "Fantastic Services": 288,
+    "Taskrabbit UK": 287,
+    "Taskrabbit": 250,
+    "Thumbtack": 250,
+    "58到家": 140,
+    "天鹅到家": 140,
+    "轻喜到家": 140,
+    "阿姨帮": 140,
+    "美团": 140,
+    "Housekeep": 135,
+    "Helpling": 90
+  },
+  "by_valence": {
+    "Negative": 1288,
+    "Positive": 662,
+    "Mixed": 50
+  },
+  "by_theme": {
+    "General trust": 704,
+    "Transparency": 303,
+    "Reliability": 302,
+    "Service Recovery": 240,
+    "Responsiveness": 231,
+    "Convenience": 90,
+    "Accountability": 81,
+    "Safety-Privacy": 49
+  }
+}
