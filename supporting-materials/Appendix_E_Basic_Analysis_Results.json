@@ -1,0 +1,67 @@
+{
+  "n": 2000,
+  "region_counts": {
+    "Europe": 800,
+    "Asia": 700,
+    "America": 500
+  },
+  "valence_counts": {
+    "Negative": 1288,
+    "Positive": 662,
+    "Mixed": 50
+  },
+  "theme_counts": {
+    "General trust": 704,
+    "Transparency": 303,
+    "Reliability": 302,
+    "Service Recovery": 240,
+    "Responsiveness": 231,
+    "Convenience": 90,
+    "Accountability": 81,
+    "Safety-Privacy": 49
+  },
+  "touchpoint_top": {
+    "General platform/service experience": 372,
+    "Matching/dispatch": 202,
+    "Customer support": 163,
+    "Payment/refund/cancellation": 127,
+    "Payment/refund/cancellation; Customer support; Booking/scheduling": 86,
+    "Communication/automation": 79,
+    "Booking/scheduling": 72,
+    "Payment/refund/cancellation; Booking/scheduling; Matching/dispatch": 69,
+    "Payment/refund/cancellation; Booking/scheduling": 59,
+    "Payment/refund/cancellation; Customer support; Matching/dispatch": 57,
+    "Payment/refund/cancellation; Customer support": 54,
+    "Customer support; Matching/dispatch": 51,
+    "Payment/refund/cancellation; Matching/dispatch": 49,
+    "Customer support; Communication/automation": 47,
+    "Review/rating/transparency": 42
+  },
+  "chi_square_tests": {
+    "region_valence": {
+      "chi_square": 11.729,
+      "df": 4,
+      "min_expected": 12.5,
+      "cramers_v": 0.054
+    },
+    "region_theme": {
+      "chi_square": 365.876,
+      "df": 14,
+      "min_expected": 12.25,
+      "cramers_v": 0.302
+    },
+    "touchpoint_valence": {
+      "chi_square": 482.516,
+      "df": 82,
+      "min_expected": 0.025,
+      "cramers_v": 0.347
+    },
+    "platform_valence": {
+      "chi_square": 610.161,
+      "df": 20,
+      "min_expected": 2.25,
+      "cramers_v": 0.391
+    }
+  },
+  "note": "Supplementary statistical output summary for the descriptive tables, cross-tabulations, chi-square tests, Cramer's V values and residual analysis reported in the dissertation."
+}
