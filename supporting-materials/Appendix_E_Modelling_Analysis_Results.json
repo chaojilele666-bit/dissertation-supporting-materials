@@ -1,0 +1,289 @@
+{
+  "n": 2000,
+  "features": [
+    "Region",
+    "Platform",
+    "Trust Theme",
+    "TouchpointGroup"
+  ],
+  "dependent_variables": {
+    "linear_regression": "Rating (1-5)",
+    "logistic_regression": "Negative (1=negative review; 0=positive/mixed)",
+    "random_forest": "Negative (1=negative review; 0=positive/mixed)"
+  },
+  "ols_stats": {
+    "r2": 0.4505,
+    "adj_r2": 0.4436,
+    "rmse": 1.3505,
+    "n": 2000.0,
+    "p": 26.0
+  },
+  "logistic_stats": {
+    "accuracy": 0.8285,
+    "tp": 1164,
+    "tn": 493,
+    "fp": 219,
+    "fn": 124
+  },
+  "random_forest_test_metrics": {
+    "accuracy": 0.805,
+    "precision": 0.804,
+    "recall": 0.922,
+    "tp": 356,
+    "tn": 126,
+    "fp": 87,
+    "fn": 30
+  },
+  "top_ols_terms": [
+    {
+      "term": "Platform_轻喜到家",
+      "coefficient": 2.5675,
+      "std_error": 0.1647,
+      "t_value": 15.5892
+    },
+    {
+      "term": "Platform_阿姨帮",
+      "coefficient": 1.7649,
+      "std_error": 0.1657,
+      "t_value": 10.6483
+    },
+    {
+      "term": "Trust Theme_Convenience",
+      "coefficient": 1.7049,
+      "std_error": 0.2164,
+      "t_value": 7.8785
+    },
+    {
+      "term": "Platform_Thumbtack",
+      "coefficient": 1.4684,
+      "std_error": 0.0944,
+      "t_value": 15.5542
+    },
+    {
+      "term": "Intercept",
+      "coefficient": 1.1748,
+      "std_error": 0.166,
+      "t_value": 7.077
+    },
+    {
+      "term": "TouchpointGroup_General platform/service experience",
+      "coefficient": 1.1049,
+      "std_error": 0.1505,
+      "t_value": 7.3428
+    },
+    {
+      "term": "Trust Theme_Reliability",
+      "coefficient": 0.8857,
+      "std_error": 0.1789,
+      "t_value": 4.9506
+    },
+    {
+      "term": "Platform_Taskrabbit UK",
+      "coefficient": 0.8286,
+      "std_error": 0.0786,
+      "t_value": 10.5479
+    },
+    {
+      "term": "TouchpointGroup_Matching/dispatch",
+      "coefficient": 0.7042,
+      "std_error": 0.1581,
+      "t_value": 4.4534
+    },
+    {
+      "term": "Trust Theme_Safety-Privacy",
+      "coefficient": 0.5422,
+      "std_error": 0.2519,
+      "t_value": 2.1528
+    },
+    {
+      "term": "Trust Theme_Transparency",
+      "coefficient": 0.5413,
+      "std_error": 0.1881,
+      "t_value": 2.8783
+    },
+    {
+      "term": "TouchpointGroup_Customer support",
+      "coefficient": 0.5201,
+      "std_error": 0.1632,
+      "t_value": 3.1879
+    },
+    {
+      "term": "TouchpointGroup_Communication/automation",
+      "coefficient": 0.4707,
+      "std_error": 0.1912,
+      "t_value": 2.462
+    },
+    {
+      "term": "Region_Asia",
+      "coefficient": -0.4505,
+      "std_error": 0.1021,
+      "t_value": -4.4141
+    },
+    {
+      "term": "Platform_天鹅到家",
+      "coefficient": 0.4206,
+      "std_error": 0.1634,
+      "t_value": 2.5746
+    }
+  ],
+  "top_logistic_terms": [
+    {
+      "term": "Platform_轻喜到家",
+      "coefficient": -2.2746,
+      "odds_ratio": 0.1028
+    },
+    {
+      "term": "Platform_Taskrabbit",
+      "coefficient": 1.4335,
+      "odds_ratio": 4.1935
+    },
+    {
+      "term": "Trust Theme_Convenience",
+      "coefficient": -1.4162,
+      "odds_ratio": 0.2426
+    },
+    {
+      "term": "TouchpointGroup_Payment/refund/cancellation",
+      "coefficient": 1.357,
+      "odds_ratio": 3.8845
+    },
+    {
+      "term": "Platform_阿姨帮",
+      "coefficient": -1.3498,
+      "odds_ratio": 0.2593
+    },
+    {
+      "term": "Platform_Thumbtack",
+      "coefficient": -1.3236,
+      "odds_ratio": 0.2662
+    },
+    {
+      "term": "Trust Theme_Service Recovery",
+      "coefficient": 0.9793,
+      "odds_ratio": 2.6626
+    },
+    {
+      "term": "Platform_Taskrabbit UK",
+      "coefficient": -0.9564,
+      "odds_ratio": 0.3843
+    },
+    {
+      "term": "TouchpointGroup_General platform/service experience",
+      "coefficient": -0.9386,
+      "odds_ratio": 0.3912
+    },
+    {
+      "term": "Trust Theme_Responsiveness",
+      "coefficient": 0.9181,
+      "odds_ratio": 2.5045
+    },
+    {
+      "term": "Platform_美团",
+      "coefficient": 0.8575,
+      "odds_ratio": 2.3571
+    },
+    {
+      "term": "Trust Theme_Reliability",
+      "coefficient": -0.635,
+      "odds_ratio": 0.53
+    },
+    {
+      "term": "Platform_Housekeep",
+      "coefficient": 0.5918,
+      "odds_ratio": 1.8072
+    },
+    {
+      "term": "Region_Asia",
+      "coefficient": 0.5227,
+      "odds_ratio": 1.6865
+    },
+    {
+      "term": "Trust Theme_Transparency",
+      "coefficient": -0.5222,
+      "odds_ratio": 0.5932
+    }
+  ],
+  "top_random_forest_features": [
+    {
+      "feature": "TouchpointGroup_Payment/refund/cancellation",
+      "importance": 0.1835
+    },
+    {
+      "feature": "TouchpointGroup_General platform/service experience",
+      "importance": 0.1217
+    },
+    {
+      "feature": "Platform_Thumbtack",
+      "importance": 0.1154
+    },
+    {
+      "feature": "Platform_轻喜到家",
+      "importance": 0.1076
+    },
+    {
+      "feature": "Trust Theme_Reliability",
+      "importance": 0.0989
+    },
+    {
+      "feature": "Platform_Taskrabbit UK",
+      "importance": 0.0647
+    },
+    {
+      "feature": "Platform_Taskrabbit",
+      "importance": 0.0638
+    },
+    {
+      "feature": "Trust Theme_Convenience",
+      "importance": 0.0513
+    },
+    {
+      "feature": "Trust Theme_Service Recovery",
+      "importance": 0.0446
+    },
+    {
+      "feature": "TouchpointGroup_Matching/dispatch",
+      "importance": 0.0335
+    },
+    {
+      "feature": "Platform_阿姨帮",
+      "importance": 0.0189
+    },
+    {
+      "feature": "Platform_美团",
+      "importance": 0.0152
+    },
+    {
+      "feature": "Region_Asia",
+      "importance": 0.0135
+    },
+    {
+      "feature": "Region_Europe",
+      "importance": 0.0125
+    },
+    {
+      "feature": "Trust Theme_Transparency",
+      "importance": 0.0117
+    },
+    {
+      "feature": "Trust Theme_Responsiveness",
+      "importance": 0.0111
+    },
+    {
+      "feature": "Trust Theme_General trust",
+      "importance": 0.0101
+    },
+    {
+      "feature": "TouchpointGroup_Customer support",
+      "importance": 0.0096
+    },
+    {
+      "feature": "Platform_天鹅到家",
+      "importance": 0.0056
+    },
+    {
+      "feature": "Platform_Fantastic Services",
+      "importance": 0.0035
+    }
+  ],
+  "note": "Supplementary modelling output summary for the linear regression, binary logistic regression and random forest analyses reported in the dissertation."
+}
